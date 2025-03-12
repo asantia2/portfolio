@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alicia Santiago's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="main-title">Alicia Santiago's Portfolio</h1>
+
+    <!-- Grid Section -->
+    <section class="grid-section">
+        <div class="container">
+            <h2>About!</h2>
+            <p class="section-description">
+                Alicia Santiago is a soon-to-be graduate of the University of Oregon looking to dive head first into audience engagement. She is passionate about connecting journalism with audiences large and small through thoughtful digital strategy. Despite wanting to focus in audience engagement, Alicia has experience with news reporting, breaking news, investigative and data journalism and social media production. Connect with her if you have opportunities or insights in these interests! Her inbox is always open to fellow journalists or media creators.
+            </p>
+            <div class="headshot-container">
+                <img src="aliciasantiagoheadshot.jpg" alt="Alicia Santiago">
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Image Grid Section -->
+    <section class="grid-section">
+        <div class="container">
+            <h2>Interactive Image Grid</h2>
+            <p class="section-description">
+                Explore Alicia's work in journalism and audience engagement. Get in contact with her through the form below! She is always willing to have conversations with fellow journalists and employers. 
+            </p>
+
+            <!-- Grid container for images -->
+            <div class="grid">
+                <div class="grid-item">
+                    <img src="bidenreacts_img.png" alt="The Seattle Times"> 
+                    <a href="https://www.instagram.com/reel/C9v2lbYvWUC/?hl=en" class="grid-item-overlay">
+                        Biden Withdraws from Race/Seattlites React
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <img src="capitolhill_img.png" alt="The Seattle Times"> 
+                    <a href="https://www.instagram.com/reel/C9qgKC1yrWY/?hl=en" class="grid-item-overlay">
+                        Chappel Roan Takes on Seattle
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <img src="Seattlecitycouncil.png" alt="The Seattle Times"> 
+                    <a href="https://www.seattletimes.com/seattle-news/seattle-city-council-position-8-candidates-answer-readers-questions/" class="grid-item-overlay">
+                        Candidates answer readers' questions
+                    </a>
+                </div>
+            </div> 
+        </div> 
+    </section> 
+
+    <!-- Carousel Section -->
+    <section class="carousel">
+        <!-- Radio buttons for slide navigation -->
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+
+        <!-- Carousel slides container -->
+        <div class="slides">
+            <!-- Slide 1 -->
+            <div class="slide">
+                <img src="beachvolleyball.jpg" alt="The Daily Emerald">
+                <!-- Overlay Section -->
+                <div class="slide-overlay">
+                    <h3>UO Faces Lawsuit</h3>
+                    <p>A lawsuit alleges sex discrimination at the University of Oregon.</p>
+                    <a href="https://dailyemerald.com/149228/investigations/investigations-uo-faces-sex-discrimination-lawsuit/" class="overlay-link">
+                        Read More
+                    </a>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="affordability.png" alt="The Daily Emerald">
+                <!-- Overlay Section -->
+                <div class="slide-overlay">
+                    <h3>Who Can Afford to Live in Eugene?</h3>
+                    <p>An investigation into the affordability crisis in Eugene.</p>
+                    <a href="https://dailyemerald.com/47619/news/who-can-afford-to-live-in-eugene/" class="overlay-link">
+                        Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation dots for carousel -->
+        <div class="navigation">
+            <label class="nav-btn" for="slide1"></label>
+            <label class="nav-btn" for="slide2"></label>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p class="section-description">Reach out to me below! I am always open to conversations with fellow journalists and employers.</p>
+
+            <!-- Contact Form -->
+            <form action="your-server-endpoint" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Alicia Santiago. All rights reserved.</p>
+            <p>Connect with me on 
+                <a href="https://www.linkedin.com/in/alicia--santiago/" target="_blank">LinkedIn</a> | 
+                <a href="https://x.com/_aaliciaa03_" target="_blank">X</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
